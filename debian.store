@@ -1,1 +1,1 @@
-{"base": "ff34970", "parent": "debian/rolling/lanelet2_traffic_rules", "previous": "b0d0dbf", "trim": "", "trimbase": ""}
+{"base": "a82dd0c", "parent": "debian/humble/lanelet2_traffic_rules", "previous": "b07d3c8", "trim": "", "trimbase": ""}
