@@ -1,0 +1,12 @@
+Source: ros-humble-lanelet2-python
+Section: misc
+Priority: optional
+Maintainer: Fabian Poggenhans <fabian.poggenhans@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-python-dev, libgtest-dev <!nocheck>, ros-humble-ament-cmake-core, ros-humble-lanelet2-core, ros-humble-lanelet2-io, ros-humble-lanelet2-projection, ros-humble-lanelet2-routing, ros-humble-lanelet2-traffic-rules, ros-humble-mrt-cmake-modules, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-lanelet2-python
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-python-dev, ros-humble-lanelet2-core, ros-humble-lanelet2-io, ros-humble-lanelet2-projection, ros-humble-lanelet2-routing, ros-humble-lanelet2-traffic-rules, ros-humble-mrt-cmake-modules, ros-humble-ros-workspace
+Description: Python bindings for lanelet2
