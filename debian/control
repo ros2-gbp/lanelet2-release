@@ -1,0 +1,12 @@
+Source: ros-humble-lanelet2-examples
+Section: misc
+Priority: optional
+Maintainer: Fabian Poggenhans <fabian.poggenhans@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, ros-humble-ament-cmake-core, ros-humble-lanelet2-core, ros-humble-lanelet2-io, ros-humble-lanelet2-projection, ros-humble-lanelet2-python, ros-humble-lanelet2-routing, ros-humble-lanelet2-traffic-rules, ros-humble-mrt-cmake-modules, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-lanelet2-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-lanelet2-core, ros-humble-lanelet2-io, ros-humble-lanelet2-projection, ros-humble-lanelet2-python, ros-humble-lanelet2-routing, ros-humble-lanelet2-traffic-rules, ros-humble-mrt-cmake-modules, ros-humble-ros2cli, ros-humble-ros-workspace
+Description: Examples for working with Lanelet2
