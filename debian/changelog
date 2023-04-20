@@ -1,0 +1,33 @@
+ros-iron-lanelet2 (1.1.1-5jammy) jammy; urgency=high
+
+  * Add missing dependency to ros_environment
+  * Contributors: Fabian Poggenhans
+
+ -- Fabian Poggenhans <fabian.poggenhans@kit.edu>  Sun, 13 Sep 2020 16:00:00 -0000
+
+ros-iron-lanelet2 (1.1.0-5jammy) jammy; urgency=high
+
+  * lanelet2 is now no longer a metapackage
+  * Include ROS2 into CI scripts
+  * Add experimental support for building with colcon on ros2 and ament_cmake
+  * Updating package.xml files to format 3.
+  * Contributors: Fabian Poggenhans, Joshua Whitley
+
+ -- Fabian Poggenhans <fabian.poggenhans@kit.edu>  Sat, 05 Sep 2020 16:00:00 -0000
+
+ros-iron-lanelet2 (1.0.1-5jammy) jammy; urgency=high
+
+  * Add changelogs
+  * Contributors: Fabian Poggenhans
+
+ -- Fabian Poggenhans <fabian.poggenhans@kit.edu>  Mon, 23 Mar 2020 16:00:00 -0000
+
+ros-iron-lanelet2 (1.0.0-5jammy) jammy; urgency=high
+
+  * Bump version to 1.0
+  * Initial commit
+  * Contributors: Fabian Poggenhans
+
+ -- Fabian Poggenhans <fabian.poggenhans@kit.edu>  Mon, 02 Mar 2020 16:00:00 -0000
+
+
