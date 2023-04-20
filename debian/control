@@ -1,0 +1,12 @@
+Source: ros-iron-lanelet2-examples
+Section: misc
+Priority: optional
+Maintainer: Fabian Poggenhans <fabian.poggenhans@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, ros-iron-ament-cmake-core, ros-iron-lanelet2-core, ros-iron-lanelet2-io, ros-iron-lanelet2-projection, ros-iron-lanelet2-python, ros-iron-lanelet2-routing, ros-iron-lanelet2-traffic-rules, ros-iron-mrt-cmake-modules, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-lanelet2-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-lanelet2-core, ros-iron-lanelet2-io, ros-iron-lanelet2-projection, ros-iron-lanelet2-python, ros-iron-lanelet2-routing, ros-iron-lanelet2-traffic-rules, ros-iron-mrt-cmake-modules, ros-iron-ros2cli, ros-iron-ros-workspace
+Description: Examples for working with Lanelet2
