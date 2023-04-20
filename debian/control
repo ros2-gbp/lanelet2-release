@@ -1,0 +1,12 @@
+Source: ros-iron-lanelet2-maps
+Section: misc
+Priority: optional
+Maintainer: Fabian Poggenhans <fabian.poggenhans@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-core, ros-iron-mrt-cmake-modules, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-lanelet2-maps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-lanelet2-core, ros-iron-mrt-cmake-modules, ros-iron-ros-workspace
+Description: Example maps in the lanelet2-format
