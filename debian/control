@@ -1,0 +1,12 @@
+Source: ros-jazzy-lanelet2-core
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-core, libboost-all-dev, libeigen3-dev, libgtest-dev <!nocheck>, ros-jazzy-mrt-cmake-modules, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-lanelet2-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-jazzy-mrt-cmake-modules, ros-jazzy-ros-workspace
+Description: Lanelet2 core module
