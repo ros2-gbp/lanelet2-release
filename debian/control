@@ -1,0 +1,12 @@
+Source: ros-jazzy-lanelet2-matching
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-core, libgtest-dev <!nocheck>, ros-jazzy-lanelet2-core, ros-jazzy-lanelet2-io <!nocheck>, ros-jazzy-lanelet2-maps <!nocheck>, ros-jazzy-lanelet2-projection <!nocheck>, ros-jazzy-lanelet2-traffic-rules, ros-jazzy-mrt-cmake-modules, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-lanelet2-matching
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-lanelet2-core, ros-jazzy-lanelet2-traffic-rules, ros-jazzy-mrt-cmake-modules, ros-jazzy-ros-workspace
+Description: Library to match objects to lanelets
