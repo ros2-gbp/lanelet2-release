@@ -1,0 +1,12 @@
+Source: ros-kilted-lanelet2-examples
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, ros-kilted-ament-cmake-core, ros-kilted-lanelet2-core, ros-kilted-lanelet2-io, ros-kilted-lanelet2-matching, ros-kilted-lanelet2-projection, ros-kilted-lanelet2-python, ros-kilted-lanelet2-routing, ros-kilted-lanelet2-traffic-rules, ros-kilted-mrt-cmake-modules, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-lanelet2-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-lanelet2-core, ros-kilted-lanelet2-io, ros-kilted-lanelet2-matching, ros-kilted-lanelet2-projection, ros-kilted-lanelet2-python, ros-kilted-lanelet2-routing, ros-kilted-lanelet2-traffic-rules, ros-kilted-mrt-cmake-modules, ros-kilted-ros2cli, ros-kilted-ros-workspace
+Description: Examples for working with Lanelet2
