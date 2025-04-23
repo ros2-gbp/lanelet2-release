@@ -1,0 +1,12 @@
+Source: ros-kilted-lanelet2
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-core, ros-kilted-ros-environment, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-lanelet2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-lanelet2-core, ros-kilted-lanelet2-examples, ros-kilted-lanelet2-io, ros-kilted-lanelet2-maps, ros-kilted-lanelet2-matching, ros-kilted-lanelet2-projection, ros-kilted-lanelet2-python, ros-kilted-lanelet2-routing, ros-kilted-lanelet2-traffic-rules, ros-kilted-lanelet2-validation, ros-kilted-ros-workspace
+Description: Meta-package for lanelet2
