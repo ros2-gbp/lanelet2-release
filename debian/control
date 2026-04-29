@@ -1,0 +1,12 @@
+Source: ros-lyrical-lanelet2-matching
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-lanelet2-core, ros-lyrical-lanelet2-io <!nocheck>, ros-lyrical-lanelet2-maps <!nocheck>, ros-lyrical-lanelet2-projection <!nocheck>, ros-lyrical-lanelet2-traffic-rules, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/lanelet2_matching/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-lanelet2-matching
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-lanelet2-core, ros-lyrical-lanelet2-traffic-rules, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Description: Library to match objects to lanelets
