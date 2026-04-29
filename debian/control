@@ -1,0 +1,12 @@
+Source: ros-lyrical-lanelet2-core
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, libgtest-dev <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/lanelet2_core/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-lanelet2-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Description: Lanelet2 core module
