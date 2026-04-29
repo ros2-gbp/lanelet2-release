@@ -1,0 +1,12 @@
+Source: ros-lyrical-lanelet2-examples
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-lanelet2-core, ros-lyrical-lanelet2-io, ros-lyrical-lanelet2-matching, ros-lyrical-lanelet2-projection, ros-lyrical-lanelet2-python, ros-lyrical-lanelet2-routing, ros-lyrical-lanelet2-traffic-rules, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/lanelet2_examples/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-lanelet2-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-lanelet2-core, ros-lyrical-lanelet2-io, ros-lyrical-lanelet2-matching, ros-lyrical-lanelet2-projection, ros-lyrical-lanelet2-python, ros-lyrical-lanelet2-routing, ros-lyrical-lanelet2-traffic-rules, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros2cli, ros-lyrical-ros-workspace
+Description: Examples for working with Lanelet2
