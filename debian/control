@@ -1,0 +1,12 @@
+Source: ros-lyrical-lanelet2-io
+Section: misc
+Priority: optional
+Maintainer: Fabian Immel <fabian.immel@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libgtest-dev <!nocheck>, libpugixml-dev, ros-lyrical-ament-cmake-core, ros-lyrical-lanelet2-core, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/lanelet2_io/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-lanelet2-io
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libpugixml-dev, ros-lyrical-lanelet2-core, ros-lyrical-mrt-cmake-modules, ros-lyrical-ros-workspace
+Description: Parser/Writer module for lanelet2
