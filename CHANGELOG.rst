@@ -2,6 +2,20 @@
 Changelog for package lanelet2_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.3 (2026-06-16)
+------------------
+* Add missing yield_line to LinestringTagging.md (`#405 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/405>`_)
+* Fix compilation with Boost 1.87 (`#399 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/399>`_)
+* Contributors: Johannes Schmitz, Martin Škoudlil
+
+1.2.2 (2024-10-25)
+------------------
+* Implement signed curvature (`#355 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/355>`_)
+* Build documentation with mkdocs (`#321 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/321>`_)
+* Update RegulatoryElementTagging.md (`#316 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/316>`_)
+* Remove unused local typedefs (`#312 <https://github.com/fzi-forschungszentrum-informatik/Lanelet2/issues/312>`_)
+* Contributors: DavUhll, Johannes Schmitz, Kosuke Takeuchi, johannes-fischer
+
 1.2.1 (2023-05-10)
 ------------------
 * Update thirdparty deps, rework projected point, enable python 3.10/3.11 (`#300 <https://github.com/immel-f/Lanelet2/issues/300>`_)
