@@ -1,3 +1,37 @@
+## lanelet2 (humble) - 1.2.3-1
+
+The packages in the `lanelet2` repository were released into the `humble` distro by running `/usr/local/bin/bloom-release lanelet2 --rosdistro humble` on `Thu, 18 Jun 2026 15:16:12 -0000`
+
+These packages were released:
+- `lanelet2`
+- `lanelet2_core`
+- `lanelet2_examples`
+- `lanelet2_io`
+- `lanelet2_maps`
+- `lanelet2_matching`
+- `lanelet2_projection`
+- `lanelet2_python`
+- `lanelet2_routing`
+- `lanelet2_traffic_rules`
+- `lanelet2_validation`
+
+Version of package(s) in repository `lanelet2`:
+
+- upstream repository: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+- release repository: https://github.com/ros2-gbp/lanelet2-release.git
+- rosdistro version: `1.2.2-1`
+- old version: `1.2.2-1`
+- new version: `1.2.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## lanelet2 (humble) - 1.2.2-1
 
 The packages in the `lanelet2` repository were released into the `humble` distro by running `/usr/bin/bloom-release lanelet2 --rosdistro humble` on `Mon, 28 Oct 2024 18:05:08 -0000`
