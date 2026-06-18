@@ -15,7 +15,7 @@ include(${CMAKE_CURRENT_LIST_DIR}/mrt_cmake_modules-extras.cmake)
 """
 
 cmake_lists = """
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.5.1)
 project(lanelet2)
 if(POLICY CMP0079)
   cmake_policy(SET CMP0079 NEW) # allows to do target_link_libraries on targets from subdirs
@@ -66,7 +66,7 @@ target_link_libraries(lanelet2_io PUBLIC lanelet2_core)
 target_link_libraries(lanelet2_projection PUBLIC lanelet2_core)
 target_link_libraries(lanelet2_traffic_rules PUBLIC lanelet2_core)
 target_link_libraries(lanelet2_routing PUBLIC lanelet2_core lanelet2_traffic_rules)
-target_link_libraries(lanelet2_matching PUBLIC lanelet2_core lanelet2_traffic_rules lanelet2_io lanelet2_projection lanelet2_maps)
+target_link_libraries(lanelet2_matching PUBLIC lanelet2_core lanelet2_traffic_rules lanelet2_io lanelet2_projection)
 target_link_libraries(lanelet2_validation PUBLIC lanelet2_core lanelet2_io lanelet2_routing lanelet2_traffic_rules lanelet2_projection)
 target_link_libraries(lanelet2_examples_compiler_flags INTERFACE lanelet2_core lanelet2_io lanelet2_routing lanelet2_traffic_rules lanelet2_projection lanelet2_matching)
 target_link_libraries(lanelet2_python_compiler_flags INTERFACE lanelet2_core lanelet2_io lanelet2_routing lanelet2_traffic_rules lanelet2_projection lanelet2_matching)
