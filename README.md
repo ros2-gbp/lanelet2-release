@@ -1,3 +1,37 @@
+## lanelet2 (rolling) - 1.2.3-1
+
+The packages in the `lanelet2` repository were released into the `rolling` distro by running `/home/fabian/.local/bin/bloom-release --rosdistro rolling lanelet2` on `Fri, 23 Oct 2026 19:59:02 -0000`
+
+These packages were released:
+- `lanelet2`
+- `lanelet2_core`
+- `lanelet2_examples`
+- `lanelet2_io`
+- `lanelet2_maps`
+- `lanelet2_matching`
+- `lanelet2_projection`
+- `lanelet2_python`
+- `lanelet2_routing`
+- `lanelet2_traffic_rules`
+- `lanelet2_validation`
+
+Version of package(s) in repository `lanelet2`:
+
+- upstream repository: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+- release repository: https://github.com/ros2-gbp/lanelet2-release.git
+- rosdistro version: `1.2.1-7`
+- old version: `1.2.1-7`
+- new version: `1.2.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## lanelet2 (jazzy) - 1.2.3-1
 
 The packages in the `lanelet2` repository were released into the `jazzy` distro by running `/usr/local/bin/bloom-release lanelet2 --rosdistro jazzy` on `Thu, 18 Jun 2026 15:30:44 -0000`
